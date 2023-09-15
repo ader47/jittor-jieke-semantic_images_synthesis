@@ -1,0 +1,4 @@
+模型: VQGAN
+数据集: ImageNet
+代码链接：https://github.com/CompVis/taming-transformers
+参数链接：https://huggingface.co/Edson125/vqgan-imagenet-f4-8192
