@@ -1,8 +1,8 @@
-# Jittor 草图生成风景比赛 Latent-Semantic-Diffusion
+# 第三届计图人工智能挑战赛 - 风景图像生成赛道 - IIDM
 
 ## 简介
 
-本项目包含了第三届计图挑战赛计图 - 草图生成风景比赛的代码实现。
+本项目包含了第三届计图挑战赛 - 风景图像生成赛道的代码实现。
 
 
 ## 安装
@@ -100,3 +100,16 @@ python merge_model --model_1 ./ckpts/model.pkl --weight_1 0.5 --model_2 ./ckpts/
 ## 致谢
 
 此项目基于论文[Semantic Image Synthesis via Diffusion Models (SDM)](https://arxiv.org/abs/2207.00050)实现，部分代码参考了[Taming Transformers for High-Resolution Image Synthesis](https://github.com/CompVis/taming-transformers/tree/master)。
+
+## Citation 
+
+If you find this code useful, please kindly cite the following paper:
+
+```
+@article{liu2024iidm,
+  title={IIDM: Image-to-Image Diffusion Model for Semantic Image Synthesis},
+  author={Liu, Feng and Chang, Xiaobin},
+  booktitle = {Computational Visual Media Journal (CVMJ)},
+  year={2024}
+}
+```
